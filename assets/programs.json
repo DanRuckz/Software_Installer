@@ -1,0 +1,124 @@
+{
+    "programs": [
+        {
+            "name": "Teams",
+            "install_type": "apt",
+            "package_name": "teams",
+            "version": "1.4.00.13653"
+        },
+        {
+            "name": "Mysql-workbench",
+            "install_type": "apt",
+            "package_name": "mysql-workbench",
+            "version": "6.3.8+dfsg-1build3"
+        },
+        {
+            "name": "Oathtool",
+            "install_type": "apt",
+            "package_name": "oathtool",
+            "version": "2.6.1-1"
+        },
+        {
+            "name": "Flameshot",
+            "install_type": "apt",
+            "package_name": "flameshot",
+            "version": "0.5.1-2"
+        },
+        {
+            "name": "Figlet",
+            "install_type": "apt",
+            "package_name": "figlet",
+            "version": "2.2.5-3"
+        },
+        {
+            "name": "Fortune",
+            "install_type": "apt",
+            "package_name": "fortune-mod",
+            "version": "1:1.99.1-7build1"
+        },
+        {
+            "name": "Emacs",
+            "install_type": "apt",
+            "package_name": "emacs",
+            "version": "47.0"
+        },
+        {
+            "name": "Xemacs",
+            "install_type": "apt",
+            "package_name": "xemacs21",
+            "version": "21.4.24-5ubuntu1"
+        },
+        {
+            "name": "Mongodb-compass",
+            "install_type": "apt",
+            "package_name": "mongodb-compass",
+            "version": "1.29.4"
+        },
+        {
+            "name": "Vscode",
+            "install_type": "apt",
+            "package_name": "code",
+            "version": "1.62.3-1637137107"
+        },
+        {
+            "name": "Geany",
+            "install_type": "apt",
+            "package_name": "geany",
+            "version": "1.32-2"
+        },
+        {
+            "name": "Tig",
+            "install_type": "apt",
+            "package_name": "tig",
+            "version": "2.3.0-1"
+        },
+        {
+            "name": "Parallel-ssh",
+            "install_type": "apt",
+            "package_name": "pssh",
+            "version": "2.3.1-1"
+        },
+        {
+            "name": "Firefox",
+            "install_type": "apt",
+            "package_name": "firefox",
+            "version": "72.0.2+build1-0ubuntu0.18.04.1"
+        },
+        {
+            "name": "Workspaces-client",
+            "install_type": "apt",
+            "package_name": "workspacesclient",
+            "version": "4.0.1.1302"
+        },
+        {
+            "name": "Npm",
+            "install_type": "apt",
+            "package_name": "npm",
+            "version": "3.5.2-0ubuntu4"
+        },
+        {
+            "name": "Nodejs",
+            "install_type": "apt",
+            "package_name": "nodejs",
+            "version": "8.10.0~dfsg-2ubuntu0.4"
+        },
+        {
+            "name": "Aws-cli-v2",
+            "install_type": "apt",
+            "package_name": "aws-cli-v2",
+            "version": "2.4.7"
+        },
+        {
+            "name": "Awscli",
+            "install_type": "apt",
+            "package_name": "awscli",
+            "version": "1.14.44-1ubuntu1"
+        },
+        {
+            "name": "Iwyu",
+            "install_type": "apt",
+            "package_name": "iwyu",
+            "version": "5.0-1"
+        }
+    ]
+}

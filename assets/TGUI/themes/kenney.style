@@ -1,0 +1,188 @@
+Button {
+	Texture         = "kenney.png" Part(2, 104, 190, 49) Middle(10, 10, 170, 29);
+	TextureHover    = "kenney.png" Part(2, 155, 190, 45) Middle(10, 10, 170, 25);
+	TextureDown     = "kenney.png" Part(2, 202, 190, 45) Middle(10, 10, 170, 25);
+	TextureFocused  = "kenney.png" Part(2, 155, 190, 45) Middle(10, 10, 170, 25);
+	TextureDisabled = "kenney.png" Part(2, 2, 195, 49) Middle(10, 10, 175, 29);
+	TextColor       = rgb(250, 250, 250);
+	TextColorDisabled = rgb(100, 100, 100);
+}
+
+ChatBox {
+	TextureBackground = "kenney.png" Part(194, 202, 190, 45) Middle(10, 10, 170, 25);
+	Scrollbar         = &Scrollbar;
+	Padding           = (3, 3, 3, 3);
+}
+
+Checkbox {
+	TextureUnchecked        = "kenney.png" Part(194, 161, 38, 36) Middle(0, 0, 38, 36);
+	TextureChecked          = "kenney.png" Part(347, 110, 38, 36) Middle(0, 0, 38, 36);
+	TextColor               = rgb(100, 100, 100);
+	TextColorHover          = Black;
+}
+
+ChildWindow {
+	TextureTitlebar        = "kenney.png" Part(194, 202, 190, 35) Middle(10, 10, 170, 25);
+	TitleColor             = White;
+	TextureBackground      = "kenney.png" Part(199, 12, 100, 90) Middle(10, 0, 80, 70);
+	BorderColor            = Black;
+	DistanceToSide         = 5;
+	PaddingBetweenButtons  = 2;
+	ShowTextOnTitleButtons = false;
+	CloseButton = {
+		Texture       = "kenney.png" Part(275, 157, 18, 18) Middle(0, 0, 18, 18);
+	};
+}
+
+ComboBox {
+	TextureBackground     = "kenney.png" Part(2, 104, 190, 49) Middle(10, 10, 170, 29);
+	TextureArrow          = "kenney.png" Part(275, 177, 15, 10) Middle(0, 0, 15, 10);
+	TextureArrowHover     = "kenney.png" Part(275, 189, 15, 10) Middle(0, 0, 15, 10);
+	TextColor             = rgb(190, 190, 190);
+	Padding               = (3, 3, 3, 3);
+	ListBox               = &ListBox;
+}
+
+EditBox {
+	Texture        = "kenney.png" Part(2, 53, 191, 49) Middle(10, 10, 171, 29);
+	TextureHover   = "kenney.png" Part(2, 2, 195, 49) Middle(10, 10, 175, 29);
+	TextureFocused = "kenney.png" Part(2, 2, 195, 49) Middle(10, 10, 175, 29);
+
+	TextColor                   = rgb(100, 100, 100);
+	SelectedTextColor           = White;
+	SelectedTextBackgroundColor = rgb( 10, 110, 255);
+	DefaultTextColor            = rgb(120, 120, 120);
+	CaretColor                  = rgb(110, 110, 255);
+	Padding                     = (6, 4, 6, 4);
+}
+
+Label {
+	TextColor = rgb(190, 190, 190);
+	Scrollbar = &Scrollbar;
+}
+
+ListBox {
+	TextureBackground = "kenney.png" Part(199, 2, 100, 100) Middle(10, 10, 80, 80);
+
+	TextColor                    = rgb(100, 100, 100);
+	TextColorHover               = rgb(250, 250, 250);
+	BackgroundColorHover         = rgb(17, 70, 92);
+	SelectedBackgroundColor      = rgb(35, 140, 184);
+	SelectedTextColor            = White;
+	Padding                      = (3, 3, 3, 3);
+	Scrollbar                    = &Scrollbar;
+}
+
+ListView {
+	TextColor                    = rgb(190, 190, 190);
+	TextColorHover               = rgb(250, 250, 250);
+	BackgroundColor              = rgb( 80,  80,  80);
+	BackgroundColorHover         = rgb(100, 100, 100);
+	SelectedBackgroundColor      = rgb( 10, 110, 255);
+	SelectedBackgroundColorHover = rgb(30, 150, 255);
+	SelectedTextColor            = White;
+	Padding                      = (3, 3, 3, 3);
+	Scrollbar                    = &Scrollbar;
+}
+
+MenuBar {
+	TextureBackground             = "kenney.png" Part(2, 104, 190, 49) Middle(10, 10, 170, 29);
+	TextureItemBackground         = "kenney.png" Part(2, 104, 190, 49) Middle(10, 10, 170, 29);
+	TextureSelectedItemBackground = "kenney.png" Part(2, 104, 190, 49) Middle(10, 10, 170, 29);
+	TextColor                     = rgb(190, 190, 190);
+	SelectedTextColor             = White;
+	DistanceToSide                = 5;
+}
+
+MessageBox {
+	TextColor       = rgb(190, 190, 190);
+	Button          = &Button;
+
+	TextureTitlebar = "kenney.png" Part(194, 202, 190, 45) Middle(10, 10, 170, 25);
+	TitleColor      = rgb(190, 190, 190);
+	BackgroundColor = rgb( 80,  80,  80);
+	BorderColor     = Black;
+	Borders         = (1, 1, 1, 1);
+	DistanceToSide  = 5;
+	CloseButton     = {
+		Texture = "kenney.png" Part(275, 157, 18, 18) Middle(0, 0, 18, 18);
+	};
+}
+
+Panel {
+	TextureBackground = "kenney.png" Part(199, 2, 100, 100) Middle(10, 10, 80, 80);
+}
+
+ProgressBar {
+	TextureBackground = "kenney.png" Part(2, 2, 195, 49) Middle(5, 5, 185, 39);
+	TextureFill       = "kenney.png" Part(2, 155, 190, 45) Middle(5, 5, 180, 35);
+	TextColor         = rgb(190, 190, 190);
+	TextColorFilled   = rgb(250, 250, 250);
+}
+
+RadioButton {
+	TextureUnchecked        = "kenney.png" Part(356, 148, 36, 36) Middle(0, 0, 36, 36);
+	TextureChecked          = "kenney.png" Part(386, 186, 36, 36) Middle(0, 0, 36, 36);
+	TextureUncheckedHover   = "kenney.png" Part(356, 148, 36, 36) Middle(0, 0, 36, 36);
+	TextureCheckedHover     = "kenney.png" Part(386, 186, 36, 36) Middle(0, 0, 36, 36);
+	TextureUncheckedFocused = "kenney.png" Part(356, 148, 36, 36) Middle(0, 0, 36, 36);
+	TextureCheckedFocused   = "kenney.png" Part(386, 186, 36, 36) Middle(0, 0, 36, 36);
+	TextColor               = rgb(190, 190, 190);
+	TextColorHover          = rgb(250, 250, 250);
+}
+
+Scrollbar {
+	TextureTrack          = "kenney.png" Part(301, 2, 4, 100) Middle(0, 0, 4, 100);
+	TextureTrackHover     = "kenney.png" Part(301, 2, 4, 100) Middle(0, 0, 4, 100);
+	TextureThumb          = "kenney.png" Part(194, 110, 49, 49) Middle(10, 10, 29, 29);
+	TextureThumbHover     = "kenney.png" Part(245, 110, 49, 45) Middle(10, 10, 29, 25);
+	TextureArrowUp        = "kenney.png" Part(296, 157, 28, 42) Middle(0, 0, 28, 42);
+	TextureArrowUpHover   = "kenney.png" Part(296, 157, 28, 42) Middle(0, 0, 28, 42);
+	TextureArrowDown      = "kenney.png" Part(326, 157, 28, 42) Middle(0, 0, 28, 42);
+	TextureArrowDownHover = "kenney.png" Part(326, 157, 28, 42) Middle(0, 0, 28, 42);
+}
+
+Slider {
+	TextureTrack      = "kenney.png" Part(194, 104, 190, 4) Middle(0, 0, 190, 4);
+	TextureTrackHover = "kenney.png" Part(194, 104, 190, 4) Middle(0, 0, 190, 4);
+	TextureThumb      = "kenney.png" Part(245, 157, 28, 42) Middle(0, 0, 28, 42);
+}
+
+SpinButton {
+	TextureArrowUp        = "kenney.png" Part(356, 186, 15, 10) Middle(0, 0, 15, 10);
+	TextureArrowUpHover   = "kenney.png" Part(386, 224, 15, 10) Middle(0, 0, 15, 10);
+	TextureArrowDown      = "kenney.png" Part(275, 177, 15, 10) Middle(0, 0, 15, 10);
+	TextureArrowDownHover = "kenney.png" Part(275, 189, 15, 10) Middle(0, 0, 15, 10);
+	BorderBetweenArrows    = 0;
+}
+
+Tabs {
+	TextureTab         = "kenney.png" Part(296, 110, 49, 45) Middle(0, 0, 49, 45);
+	TextureSelectedTab = "kenney.png" Part(245, 110, 49, 45) Middle(0, 0, 49, 45);
+	TextColor          = rgb(190, 190, 190);
+	SelectedTextColor  = White;
+	DistanceToSide     = 8;
+}
+
+TextBox {
+	TextureBackground           = "kenney.png" Part(2, 53, 191, 49) Middle(10, 10, 171, 29);
+	TextColor                   = rgb(190, 190, 190);
+	SelectedTextColor           = White;
+	SelectedTextBackgroundColor = rgb( 10, 110, 255);
+	CaretColor                  = rgb(110, 110, 255);
+	Padding                     = (3, 3, 3, 3);
+	Scrollbar                   = &Scrollbar;
+}
+
+ToolTip {
+	TextColor       = rgb(190, 190, 190);
+	BackgroundColor = rgb( 80,  80,  80);
+	BorderColor     = Black;
+	Borders         = (1, 1, 1, 1);
+	Padding         = (2, 2, 2, 2);
+}
+
+ItemSlot {
+	BackgroundColor = rgba(255, 255, 255, 0);
+	BackgroundColorHover = rgba(255, 255, 255, 50);
+}

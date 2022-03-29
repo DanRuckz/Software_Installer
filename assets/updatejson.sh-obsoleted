@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cp assets/programs.json /mobileye/system/hd_scripts/bogdan/software-installer\
+/assets/
